@@ -4,9 +4,9 @@ require File.expand_path('../lib/cucumber-pride/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Peter Vandenberk"]
   gem.email         = ["pvandenberk@mac.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Mimics the functionality of minitest/pride for Cucumber}
+  gem.summary       = %q{Take pride in your testing}
+  gem.homepage      = "https://github.com/pvdb/cucumber-pride"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
