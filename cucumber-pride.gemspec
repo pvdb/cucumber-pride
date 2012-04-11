@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "cucumber-pride"
   gem.require_paths = ["lib"]
   gem.version       = Cucumber::Pride::VERSION
+
+  gem.add_dependency 'cucumber', ['~> 1.1.1']
 end
