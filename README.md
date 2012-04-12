@@ -26,6 +26,10 @@ Or install it yourself as:
 
     $ gem install cucumber-pride
 
+## Tests
+
+The tests are a lie! They don't test cucumber-pride directly, they just produce enough output so that you can visually verify that everything is working. This was much faster than writing actual tests and works just as well in this case.
+
 ## Usage
 
 TODO: Write usage instructions here

@@ -16,4 +16,5 @@ Gem::Specification.new do |gem|
   gem.version       = Cucumber::Pride::VERSION
 
   gem.add_dependency 'cucumber', ['~> 1.1.1']
+  gem.add_development_dependency 'rspec', ['~> 2.9.0']
 end
